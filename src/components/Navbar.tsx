@@ -122,7 +122,7 @@ export default function Navbar() {
               ))}
               <motion.li variants={linkVariants}>
                 <a
-                  href="/CV-NamaLengkap.pdf"
+                  href="/cv-dann.pdf"
                   download
                   className="mt-4 bg-gray-800 text-white px-8 py-3 rounded-full text-lg font-medium"
                 >
