@@ -126,7 +126,7 @@ export default function Navbar() {
                   download
                   className="mt-4 bg-gray-800 text-white px-8 py-3 rounded-full text-lg font-medium"
                 >
-                  Unduh CV
+                  Resume
                 </a>
               </motion.li>
             </motion.ul>
