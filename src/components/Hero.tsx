@@ -86,7 +86,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
           >
             <Image
-              src="/dann.svg" // Pastikan nama file sesuai
+              src="/dann.png" // Pastikan nama file sesuai
               alt="Foto Ahmad Fauzidan"
               width={320}
               height={320}
