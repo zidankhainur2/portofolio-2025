@@ -1,9 +1,9 @@
-// src/components/Hero.tsx
-"use client"; // Diperlukan untuk library animasi
+"use client";
 
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
             ]}
             wrapper="p"
             speed={50}
-            className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed h-16 md:h-auto" // h-16 untuk memberi ruang
+            className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed h-16 md:h-auto"
             repeat={Infinity}
           />
 
@@ -86,7 +86,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
           >
             <Image
-              src="/dann.png" // Pastikan nama file sesuai
+              src="/profile-picture.jpg"
               alt="Foto Ahmad Fauzidan"
               width={320}
               height={320}
@@ -99,6 +99,3 @@ export default function Hero() {
     </section>
   );
 }
-
-// Tambahkan import motion jika belum ada di file ini
-import { motion } from "framer-motion";
